@@ -1,0 +1,115 @@
+[02:06:32.842] Running build in Washington, D.C., USA (East) – iad1
+[02:06:32.862] Cloning github.com/DAaveMITT/oasisnextjs (Branch: main, Commit: e77f121)
+[02:06:40.115] Cloning completed: 7.253s
+[02:06:40.243] Restored build cache from previous deployment (4gPn3SSqhQjxuhSDgRy1tRb1ALYy)
+[02:06:41.125] Running "vercel build"
+[02:06:41.557] Vercel CLI 41.7.3
+[02:06:41.915] Installing dependencies...
+[02:06:44.122] npm warn deprecated are-we-there-yet@2.0.0: This package is no longer supported.
+[02:06:44.124] npm warn deprecated npmlog@5.0.1: This package is no longer supported.
+[02:06:44.124] npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+[02:06:44.127] npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+[02:06:44.147] npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+[02:06:44.164] npm warn deprecated gauge@3.0.2: This package is no longer supported.
+[02:06:47.285] 
+[02:06:47.285] up to date in 5s
+[02:06:47.285] 
+[02:06:47.286] 299 packages are looking for funding
+[02:06:47.286]   run `npm fund` for details
+[02:06:47.328] Detected Next.js version: 15.3.2
+[02:06:47.335] Running "npm run build"
+[02:06:47.461] 
+[02:06:47.461] > oasis-next@0.1.0 build
+[02:06:47.462] > next build
+[02:06:47.462] 
+[02:06:48.666]    ▲ Next.js 15.3.2
+[02:06:48.666] 
+[02:06:48.679]    Linting and checking validity of types ...
+[02:06:58.836]    Creating an optimized production build ...
+[02:07:13.340]  ✓ Compiled successfully in 11.0s
+[02:07:13.341]    Collecting page data ...
+[02:07:15.783]    Generating static pages (0/256) ...
+[02:07:17.880]    Generating static pages (64/256) 
+[02:07:17.996]    Generating static pages (128/256) 
+[02:07:18.537]    Generating static pages (192/256) 
+[02:07:18.863]  ✓ Generating static pages (256/256)
+[02:07:31.103]    Finalizing page optimization ...
+[02:07:31.103]    Collecting build traces ...
+[02:07:31.120] 
+[02:07:31.126] Route (pages)                                                                         Size  First Load JS  Revalidate  Expire
+[02:07:31.126] ┌ ● /                                                                              6.14 kB         169 kB
+[02:07:31.126] ├   /_app                                                                              0 B         116 kB
+[02:07:31.126] ├ ○ /404                                                                             190 B         116 kB
+[02:07:31.127] ├ ○ /aboutus                                                                       1.64 kB         158 kB
+[02:07:31.127] ├ ƒ /api/send-email                                                                    0 B         116 kB
+[02:07:31.127] ├ ƒ /api/sitemap                                                                       0 B         116 kB
+[02:07:31.127] ├ ○ /catalogs (371 ms)                                                             2.47 kB         122 kB
+[02:07:31.127] ├ ○ /catalogs/lighting (368 ms)                                                    36.1 kB         152 kB
+[02:07:31.127] ├ ○ /contact (913 ms)                                                              2.58 kB         158 kB
+[02:07:31.127] ├ ○ /lighting (911 ms)                                                               31 kB         194 kB
+[02:07:31.127] ├   └ css/e5d1744ed76cb479.css                                                     3.62 kB
+[02:07:31.127] ├ ○ /lightingdemo (912 ms)                                                          2.3 kB         158 kB
+[02:07:31.127] ├ ● /pools                                                                         4.71 kB         161 kB          1d      1y
+[02:07:31.127] ├ ○ /pools/pool-automation (912 ms)                                                3.18 kB         159 kB
+[02:07:31.127] ├ ● /posts                                                                         1.89 kB         129 kB
+[02:07:31.128] ├ ● /posts/[slug] (2633 ms)                                                        4.25 kB         167 kB
+[02:07:31.128] ├   └ css/573d4cf975e94bbb.css                                                       383 B
+[02:07:31.128] ├   ├ /posts/2025-10-2025-luxury-landscape-lighting-installs-hamptons-ny (502 ms)
+[02:07:31.128] ├   ├ /posts/2025-9-5-landscape-lighting-installs-huntington-ny (501 ms)
+[02:07:31.128] ├   ├ /posts/2025-5-7-jandy-trueclear-salt-chlorinator (501 ms)
+[02:07:31.128] ├   ├ /posts/2025-4-13-low-voltage-landscape-lighting-install (501 ms)
+[02:07:31.128] ├   ├ /posts/2025-04-12-landscape-lighting-installation-tips (501 ms)
+[02:07:31.128] ├   ├ /posts/2025-04-12-can-i-install-my-own-landscape-lighting
+[02:07:31.128] ├   └ /posts/2025-04-12-the-top-10-benefits-of-outdoor-lighting-for-homes
+[02:07:31.128] ├ ○ /privacy (367 ms)                                                              1.48 kB         117 kB
+[02:07:31.128] ├ ○ /products (911 ms)                                                             1.71 kB         158 kB
+[02:07:31.128] ├ ● /products/[slug] (1840 ms)                                                     2.71 kB         159 kB
+[02:07:31.128] ├   ├ /products/classic-outdoor-wall-light
+[02:07:31.128] ├   ├ /products/a3a3-6w-27k-bk
+[02:07:31.128] ├   ├ /products/a3a1-5w-30k-bk
+[02:07:31.128] ├   └ [+18 more paths]
+[02:07:31.128] ├ ○ /products/lighting                                                             1.64 kB         158 kB
+[02:07:31.129] ├ ○ /products/pools                                                                1.73 kB         158 kB
+[02:07:31.129] ├ ○ /proposals/25-177_Thorman                                                      3.56 kB         120 kB
+[02:07:31.129] ├ ○ /services                                                                      2.32 kB         154 kB
+[02:07:31.129] ├ ● /services/color-changing-lights                                                5.19 kB         125 kB          1d      1y
+[02:07:31.129] ├ ● /services/hardscape-lighting                                                   3.24 kB         123 kB          1d      1y
+[02:07:31.129] ├ ● /services/indicator-lights                                                      3.2 kB         123 kB          1d      1y
+[02:07:31.129] ├ ● /services/led-tape-lighting                                                    3.19 kB         123 kB          1d      1y
+[02:07:31.129] ├ ● /services/pendant-lighting                                                     3.24 kB         123 kB          1d      1y
+[02:07:31.129] ├ ● /services/spotlights-flood-lights                                              2.95 kB         123 kB          1d      1y
+[02:07:31.129] ├ ● /services/walkway-lighting                                                     3.09 kB         123 kB          1d      1y
+[02:07:31.129] ├ ● /services/wall-mounted-lighting                                                3.12 kB         123 kB          1d      1y
+[02:07:31.130] ├ ● /services/well-lights                                                          3.19 kB         123 kB          1d      1y
+[02:07:31.130] ├ ○ /terms                                                                         1.44 kB         117 kB
+[02:07:31.130] ├ ○ /towns                                                                         1.66 kB         161 kB
+[02:07:31.130] ├ ○ /towns/[county]                                                                43.3 kB         199 kB
+[02:07:31.130] └ ● /towns/[county]/[town] (41517 ms)                                              9.79 kB         169 kB          1d      1y
+[02:07:31.130]     ├ /towns/nassau-county/woodmere (1027 ms)
+[02:07:31.130]     ├ /towns/town-of-north-hempstead/carle-place (1023 ms)
+[02:07:31.130]     ├ /towns/town-of-north-hempstead/albertson (1022 ms)
+[02:07:31.130]     ├ /towns/town-of-north-hempstead/floral-park (1022 ms)
+[02:07:31.130]     ├ /towns/town-of-north-hempstead/glenwood-landing (1022 ms)
+[02:07:31.130]     ├ /towns/town-of-north-hempstead/great-neck (1022 ms)
+[02:07:31.130]     ├ /towns/town-of-north-hempstead/greenvale (1021 ms)
+[02:07:31.130]     └ [+191 more paths]
+[02:07:31.130] + First Load JS shared by all                                                       123 kB
+[02:07:31.130]   ├ chunks/framework-6991a7d9c03cf0e3.js                                           44.9 kB
+[02:07:31.130]   ├ chunks/main-8769298c66c2678d.js                                                38.8 kB
+[02:07:31.131]   ├ chunks/pages/_app-4598c171af63e06a.js                                          30.6 kB
+[02:07:31.131]   └ other shared chunks (total)                                                    8.99 kB
+[02:07:31.131] 
+[02:07:31.131] ○  (Static)   prerendered as static content
+[02:07:31.131] ●  (SSG)      prerendered as static HTML (uses getStaticProps)
+[02:07:31.131] ƒ  (Dynamic)  server-rendered on demand
+[02:07:31.131] 
+[02:07:31.490] Traced Next.js server files in: 92.572ms
+[02:07:32.034] Created all serverless functions in: 542.536ms
+[02:07:32.070] Collected static files (public/, static/, .next/static): 27.407ms
+[02:07:33.343] Build Completed in /vercel/output [51s]
+[02:07:33.705] Deploying outputs...
+[02:07:43.839] 
+[02:07:44.123] Deployment completed
+[02:08:00.888] Uploading build cache [256.18 MB]...
+[02:08:03.992] Build cache uploaded: 3.105s
+[02:08:06.212] Exiting build container
