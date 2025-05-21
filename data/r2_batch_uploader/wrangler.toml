@@ -1,0 +1,9 @@
+name = "busconnectdirect"
+
+[env.production]
+compatibility_date = "2023-09-25"
+
+[[r2_buckets]]
+binding = "BUSCONNECT_STATIC_PAGES" 
+bucket_name = "busconnectstaticpages"
+preview_bucket_name = "busconnectstaticpages"
